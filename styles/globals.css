@@ -1,0 +1,58 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Public Sans', sans-serif, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #655bd3 !important;
+}
+
+.MuiModal-root {
+  outline: none;
+  box-shadow: none;
+}
+input:focus {
+  outline: none;
+}
+
+* {
+  scroll-padding: 120px !important;
+  outline: none !important;
+}
+
+#select-options {
+  min-width: fit-content !important;
+}
+.yes-overflow.MuiDataGrid-cell {
+  overflow: visible !important;
+}
+
+#pdf-content * {
+  color: rgb(31, 31, 31) !important;
+}
